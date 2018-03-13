@@ -1,0 +1,53 @@
+body {
+  font-family: Segoe UI, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  margin: 40px 0 0 40px;
+}
+h1 {
+  font-family: HP Simplified, sans-serif;
+}
+h3 {
+  text-align: center;
+  margin: 0 0 1em 0;
+}
+.box-display {
+  display: inline-block;
+  border: 1px solid lightgray;
+  padding: 1.2em 1em;
+}
+table#days {
+  border-collapse: separate;
+  border-spacing: 4px;
+}
+table#days th, table#days td {
+  padding: 0 1em;
+  text-align: center;
+  height: 40px;
+}
+table#days th {
+  background: rgb(32,178,170);
+}
+table#days td {
+  background: rgb(175,238,238);
+}
+#today {
+  border: 2px solid #545454;
+}
+#back {
+  float: left;
+  margin: 0 0 0 3px;
+}
+#forward {
+  float: right;
+  margin: 0 3px 0 0;
+}
+#back, #forward {
+  padding: 0 1.2em;
+  height: 30px;
+  border: 1px solid lightgray;
+  color: #424242;
+  font-weight: bold;
+  background-color: #e2e2e2;
+  border-radius: 1px;
+  cursor: pointer;
+}
